@@ -1,0 +1,8 @@
+# Config for DoubleU-Net
+IN_CHANNELS = 3
+OUT_CHANNELS = 1
+
+ENC2_FEATURES = [64, 128, 256, 512]
+DEC_FEATURES = [512, 256, 128, 64]
+
+DEVICE = "cuda" 
